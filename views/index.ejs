@@ -12,19 +12,15 @@
     <div class="app-container">
         <div class="books-container">
             <% for (let i=0; i < books.length; i++) { %>
-                <a href="<%= i %>" class="book-container">
+                <div class="book-container" onclick="getBook(<%= i %>)">
                     <label><%= books[i].name%></label>
-                </a>
+                </div>
             <% } %>
         </div>
         <div class="book-details-container">
-            <% if (selectedBook !== null) { %>
-                <img class="book-img" src="<%= selectedBook.imgUrl %>">
-                <div><%= selectedBook.name %></div>
-                <div><%= selectedBook.author %></div>
-            <% } %> 
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 
 </html>
