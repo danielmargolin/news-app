@@ -11,7 +11,7 @@ const books = [
     { name: 'לא רציונלי לא במקרה', author: 'דן אריאלי', imgUrl: 'https://www.e-vrit.co.il/Images/Products/ebooks2/predictably_irrational_master.jpg' },
     { name: 'מהלך מוטעה', author: 'הרלן קובן', imgUrl: 'images/08fcab7a30ba4fa050cd19ec1c9f6c88.jpeg' },
     { name: 'קיצור תולדות האנושות', author: 'יובל נח הררי', imgUrl: 'images/kitzur_toldot_haenoshut_master.jpeg' },
-    { name: 'ההיסטוריה של המחר', author: 'יובל נח הררי', imgUrl: 'images/כריכת_ההיסטוריה_של_המחר.jpeg' },
+    { name: 'תעתועי האקראיות', author: 'טאלב ניקולס נסים ', imgUrl: 'images/taatueyha_master.jpeg' },
 ];
 
 app.get("/:id?", async (req, res) => {
